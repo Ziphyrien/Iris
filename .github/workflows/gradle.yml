@@ -35,5 +35,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: plugin-Iris
-        path: target/*.jar
+        path: build
         retention-days: 7
